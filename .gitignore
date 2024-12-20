@@ -1,0 +1,50 @@
+# PHP files
+vendor/
+composer.lock
+.phpunit.result.cache
+.phpunit.cache
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.settings/
+.project
+.buildpath
+
+# Docker files
+docker/**/data/
+mysql_data/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache and logs
+*.log
+*.cache
+/logs/*
+/cache/*
+/tmp/*
+
+# Build and coverage reports
+/build/
+/coverage/
+clover.xml
+*.sql.gz
+
+# Node modules (caso use npm/yarn para assets)
+node_modules/
+npm-debug.log
+yarn-error.log
